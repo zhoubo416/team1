@@ -5,8 +5,8 @@ Effective date: 2026-08-18
 
 Welcome to Team+1 ("the App" or "we"). We take the protection of your personal information seriously and are committed to safeguarding it. This Privacy Policy explains how we collect, use, store, share, and protect your personal information, and the rights you have. Please read this policy carefully before using the App.
 
-**Operator:** 【Company Name】
-**Contact:** 【Contact Email】
+**Operator:** Individual Developer
+**Contact:** zhoubo416@126.com
 
 ---
 
@@ -66,10 +66,13 @@ To provide certain features, the App integrates the following third-party servic
 | Third-Party Service | Purpose | Information Involved |
 |---------------------|---------|----------------------|
 | Alibaba Cloud Intelligent Speech (ASR) | Real-time speech recognition and transcription | Voice audio |
+| AI Conversation Service | AI assistant Q&amp;A and content generation | The text you enter, and text converted from your voice input |
 | Volcano Engine Real-Time Communication (RTC) | Voice/video calling | Voice audio, device information |
 | JPush | Push notifications | Device identifier, push token |
 | MinIO Object Storage | File/image storage | Uploaded files and images |
 | PGYER (Android beta distribution only) | Version check and update | App version information |
+
+**Special note on third-party AI services**: The App's AI assistant, speech recognition, and real-time transcription features send the text you enter, your voice audio (or the text converted from it) to the third-party AI services listed above for processing. We only send this information when you use the relevant feature, and only to the minimum extent necessary to provide it. Before you use these features for the first time, the App will clearly inform you — via a pop-up — of the types of information and the recipients involved, and will only send the data after obtaining your consent. You may decline; in that case the corresponding AI features will be unavailable, but other basic features will not be affected.
 
 These third-party SDKs have their own privacy policies, which we encourage you to review. We are not responsible for the privacy practices of third parties, but we exercise reasonable diligence when selecting them.
 
@@ -97,7 +100,7 @@ Under applicable laws and regulations, you have the following rights:
 
 1. **Access and correction**: You can view and edit your profile on the "Profile" page.
 2. **Deletion**: You can delete content you have posted.
-3. **Account deletion**: You can apply to delete your account by tapping "Delete Account" on the "Profile" page. Once deleted, your account and all associated data will be permanently removed and cannot be recovered.
+3. **Account deletion**: You can request account deletion by tapping "Request Deletion" on the "Profile" page and emailing zhoubo416@126.com. Once deleted, your account and all associated data will be permanently removed and cannot be recovered.
 4. **Withdraw permissions**: You can revoke the permissions granted to the App in your device settings.
 5. **Contact us**: If you wish to exercise any of the above rights or have any questions, please contact us using the details at the end of this policy.
 
@@ -121,15 +124,15 @@ We may update this Privacy Policy from time to time. When we do, we will notify 
 
 If you have any questions, comments, or suggestions regarding this Privacy Policy or our privacy practices, please contact us:
 
-- **Operator**: 【Company Name】
-- **Email**: 【Contact Email】
+- **Operator**: Individual Developer
+- **Email**: zhoubo416@126.com
 
 We will respond to your inquiry as soon as possible.
 
 ---
 
-> **Before publishing, please fill in:**
-> 1. The 【Company Name】 and 【Contact Email】 placeholders (at the top and bottom).
+> **Before publishing, please check:**
+> 1. The operator and contact email at the top and bottom.
 > 2. The last-updated and effective dates.
-> 3. Publish this policy online (e.g., `https://app.team1.hiysg.com/privacy`) and put that URL into `PRIVACY_POLICY_URL` in `.env`.
+> 3. Publish this policy online (e.g., `https://zhoubo416.github.io/team1/privacy_policy`) and put that URL into `PRIVACY_POLICY_URL` in `.env`.
 > 4. In App Store Connect, keep the "App Privacy" data categories and "Privacy Policy URL" consistent with this policy and your privacy manifest.
