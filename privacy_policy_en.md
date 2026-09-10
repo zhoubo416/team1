@@ -1,7 +1,7 @@
 # Team+1 Privacy Policy
 
-Last updated: 2026-08-18
-Effective date: 2026-08-18
+Last updated: 2026-09-10
+Effective date: 2026-09-10
 
 Welcome to Team+1 ("the App" or "we"). We take the protection of your personal information seriously and are committed to safeguarding it. This Privacy Policy explains how we collect, use, store, share, and protect your personal information, and the rights you have. Please read this policy carefully before using the App.
 
@@ -23,7 +23,7 @@ We collect and use your personal information only for the purposes described in 
 
 ### 1.2 Information We Collect Automatically
 
-- **Device information**: device model, operating system version, and device identifiers (used for core functions such as push notifications).
+- **Device information**: device model, operating system version, and device identifiers (used for push notifications on Android).
 - **Log information**: crash logs and usage data (used to keep the service stable and improve the product).
 
 We do **not** collect your location information.
@@ -68,7 +68,7 @@ To provide certain features, the App integrates the following third-party servic
 | Alibaba Cloud Intelligent Speech (ASR) | Real-time speech recognition and transcription | Voice audio |
 | AI Conversation Service | AI assistant Q&amp;A and content generation | The text you enter, and text converted from your voice input |
 | Volcano Engine Real-Time Communication (RTC) | Voice/video calling | Voice audio, device information |
-| JPush | Push notifications | Device identifier, push token |
+| JPush (Android only) | Push notifications | Device identifier, push token |
 | MinIO Object Storage | File/image storage | Uploaded files and images |
 | PGYER (Android beta distribution only) | Version check and update | App version information |
 
@@ -128,11 +128,3 @@ If you have any questions, comments, or suggestions regarding this Privacy Polic
 - **Email**: zhoubo416@126.com
 
 We will respond to your inquiry as soon as possible.
-
----
-
-> **Before publishing, please check:**
-> 1. The operator and contact email at the top and bottom.
-> 2. The last-updated and effective dates.
-> 3. Publish this policy online (e.g., `https://zhoubo416.github.io/team1/privacy_policy`) and put that URL into `PRIVACY_POLICY_URL` in `.env`.
-> 4. In App Store Connect, keep the "App Privacy" data categories and "Privacy Policy URL" consistent with this policy and your privacy manifest.
