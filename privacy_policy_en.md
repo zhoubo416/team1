@@ -1,7 +1,7 @@
 # Team+1 Privacy Policy
 
-Last updated: 2026-09-10
-Effective date: 2026-09-10
+Last updated: 2026-09-11
+Effective date: 2026-09-11
 
 Welcome to Team+1 ("the App" or "we"). We take the protection of your personal information seriously and are committed to safeguarding it. This Privacy Policy explains how we collect, use, store, share, and protect your personal information, and the rights you have. Please read this policy carefully before using the App.
 
@@ -50,10 +50,9 @@ We request the following permissions only for the specific features described be
 | Permission | Purpose |
 |------------|---------|
 | Face ID / Biometrics | Quickly verify your identity and log in |
-| Camera | Scan QR codes and take photos for upload |
-| Photo Library | Select images to upload or set as your avatar |
-| Microphone | Voice input and transcription, voice calls |
-| Speech Recognition | Convert voice into text in real time |
+| Microphone | Voice input and transcription, AI assistant voice chat, live meeting transcription |
+
+**About the camera and photo library**: our iOS app bundles a real-time communication component for meetings and a rich-text editor component. Those third-party components declare camera and photo-library system interfaces, so the app has to provide the corresponding permission descriptions. **The app does not take photos or record video, and it does not read or upload anything from your photo library.** Voice meetings use the microphone only.
 
 Disabling a permission may affect the corresponding feature but will not affect other basic functionality.
 
