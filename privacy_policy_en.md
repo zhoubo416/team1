@@ -18,12 +18,12 @@ We collect and use your personal information only for the purposes described in 
 
 - **Account information**: the username and password you provide when registering or logging in. Passwords are used solely for authentication and are never stored in plain text.
 - **Profile information**: name, phone number, email, department, position and city, used to complete your personal and team profile.
-- **Content data**: chat messages, meeting content, tasks and reports you create while using the App, plus the audio, video, PDF or Word files you upload when importing a meeting.
+- **Content data**: chat messages, meeting content, tasks and reports you create while using the App, plus the files you upload (for example the audio, video or document you submit through the meeting-import feature).
 - **Voice data**: audio generated during voice input, real-time voice transcription, or voice meetings.
 
 ### 1.2 Information We Collect Automatically
 
-- **Device information**: device model, operating system version, and device identifiers (used for push notifications on Android).
+- **Device information**: we do not collect your device model or operating system version. On Android, the push SDK collects a device identifier and a push token for push notifications (see Section 4).
 - **Log information**: crash logs and usage data (used to keep the service stable and improve the product).
 
 We do **not** collect your location information.
@@ -37,7 +37,7 @@ We use the information we collect for the following purposes:
 1. Providing core features, including messages, meetings, projects, tasks, reports, and the AI assistant;
 2. Enabling speech recognition and real-time transcription (converting your voice into text);
 3. Providing voice calling services;
-4. Sending push notifications (meeting reminders, message notifications, etc.);
+4. Sending push notifications (meeting reminders, message notifications, etc.) on Android;
 5. Account authentication and security;
 6. Analyzing and improving our products and services.
 
@@ -68,7 +68,7 @@ To provide certain features, the App integrates the following third-party servic
 | AI Conversation Service | AI assistant Q&amp;A and content generation | The text you enter, and text converted from your voice input |
 | Volcano Engine Real-Time Communication (RTC) | Voice calling | Voice audio, device information |
 | JPush (Android only) | Push notifications | Device identifier, push token |
-| MinIO Object Storage | File storage | Audio, video and document files uploaded when importing a meeting |
+| MinIO Object Storage | File storage | The audio, video and document files you upload |
 | PGYER (Android beta distribution only) | Version check and update | App version information |
 
 **Special note on third-party AI services**: The App's AI assistant, speech recognition, and real-time transcription features send the text you enter, your voice audio (or the text converted from it) to the third-party AI services listed above for processing. We only send this information when you use the relevant feature, and only to the minimum extent necessary to provide it. Before you use these features for the first time, the App will clearly inform you — via a pop-up — of the types of information and the recipients involved, and will only send the data after obtaining your consent. You may decline; in that case the corresponding AI features will be unavailable, but other basic features will not be affected.
